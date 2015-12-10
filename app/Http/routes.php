@@ -15,4 +15,5 @@
 //     return view('welcome');
 // });
 
-Route::resource('', 'IndexController');
+Route::resource('/', 'IndexController');
+Route::resource('post', 'PostController');
